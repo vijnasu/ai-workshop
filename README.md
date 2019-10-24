@@ -64,25 +64,32 @@ $HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br
 ```
 
 11. **Open Visual Cloud demos:-**</br>
-![alt text](https://01.org/sites/default/files/users/u66592/ovc-_pipeline_v3.png)</br></br>
-..* [CONTENT DELIVERY NETWORK (CDN) - TRANSCODE SAMPLE](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)
-..* [VIDEO CONFERENCING SAMPLE](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)
-..* [SMART CITY TRAFFIC MANAGEMENT SAMPLE](https://github.com/OpenVisualCloud/Smart-City-Sample)
-..* [INTELLIGENT AD-INSERTION SAMPLE](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)
-..* [CLOUD GAMING FOR WINDOWS SAMPLE](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)
+![alt text](https://01.org/sites/default/files/users/u66592/ovc-_pipeline_v3.png)
+</br></br>
+  1 [CONTENT DELIVERY NETWORK (CDN) - TRANSCODE SAMPLE](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)
+  2 [VIDEO CONFERENCING SAMPLE](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)
+  3 [SMART CITY TRAFFIC MANAGEMENT SAMPLE](https://github.com/OpenVisualCloud/Smart-City-Sample)
+  4 [INTELLIGENT AD-INSERTION SAMPLE](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)
+  5 [CLOUD GAMING FOR WINDOWS SAMPLE](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)
 
 12. **Open Source Reference Implementations:- https://software.intel.com/en-us/iot/reference-implementations**</br>
 
+13. **OpenVINO Youtube Channel:-**
+</br>
+[![](http://img.youtube.com/vi/kY9nZbX1DWM/0.jpg)](http://www.youtube.com/watch?v=kY9nZbX1DWM "")
+</br>
+
 ## **__Troubleshooting:-__**</br>
 
-1. If there is a protobuf, opencv, vmmr_utils error, it may be due to jupyter kernel not pointing to proper environment. To correct this in the terminal do the following:-</br>
+  1. If there is a protobuf, opencv, vmmr_utils error, it may be due to jupyter kernel not pointing to proper environment. To correct this in the terminal do the following:-</br>
 ```python
-python</br>
+python
 >>>import sys
 >>>sys.executable
 '/home/u****/.conda/envs/tf_training/bin/python'
 >>>exit()
 ```
+
 ```
 $jupyter kernelspec list</br>
 ```
@@ -90,9 +97,11 @@ Available kernels:</br>
   base             /home/u****/.local/share/jupyter/kernels/base</br>
   python3          /home/u****/.local/share/jupyter/kernels/python3</br>
   tf_training      /home/u****/.local/share/jupyter/kernels/tf_training</br>
-```  
+
+```
 $vi /home/u****/.local/share/jupyter/kernels/tf_training/kernel.json</br>
 ```
+
 ```
 {
  "argv": [
