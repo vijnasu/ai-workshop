@@ -93,7 +93,7 @@ $HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br
 
 13. **OpenVINO Youtube Channel:-**
 </br>
-[![Watch the video tutorials](http://img.youtube.com/vi/kY9nZbX1DWM/0.jpg)](http://www.youtube.com/watch?v=kY9nZbX1DWM)
+[![Watch the video tutorials](https://github.com/vijnasu/ai-workshop/blob/master/images/0.jpg)](http://www.youtube.com/watch?v=kY9nZbX1DWM)
 </br>
 
 ## **__Troubleshooting:-__**</br>
