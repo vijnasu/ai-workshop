@@ -80,7 +80,7 @@ $HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br
 
 11. **Open Visual Cloud demos:-**</br>
 
-![alt text](https://01.org/sites/default/files/users/u66592/ovc-_pipeline_v3.png =100x100)
+![alt text](https://01.org/sites/default/files/users/u66592/ovc-_pipeline_v3.png)
 </br></br>
 
    ##### 1 [Content Delivery Network (CDN) - Transcode Sample](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)</br>
@@ -92,7 +92,7 @@ $HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br
 12. **Open Source Reference Implementations:- https://software.intel.com/en-us/iot/reference-implementations**</br>
 
 13. **OpenVINO Youtube Channel:-**</br>
-[![Watch the video tutorials](https://github.com/vijnasu/ai-workshop/blob/master/images/final_5db1565885d3500014a8e867_181580.gif =100x100)](http://www.youtube.com/watch?v=kY9nZbX1DWM)
+[![Watch the video tutorials](https://github.com/vijnasu/ai-workshop/blob/master/images/final_5db1565885d3500014a8e867_181580.gif)](http://www.youtube.com/watch?v=kY9nZbX1DWM)
 
 ## **__Troubleshooting:-__**</br>
 
