@@ -83,11 +83,11 @@ $HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br
 ![alt text](https://01.org/sites/default/files/users/u66592/ovc-_pipeline_v3.png)
 </br></br>
 
-    1 [CONTENT DELIVERY NETWORK (CDN) - TRANSCODE SAMPLE](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)</br>
-    2 [VIDEO CONFERENCING SAMPLE](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)</br>
-    3 [SMART CITY TRAFFIC MANAGEMENT SAMPLE](https://github.com/OpenVisualCloud/Smart-City-Sample)</br>
-    4 [INTELLIGENT AD-INSERTION SAMPLE](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)</br>
-    5 [CLOUD GAMING FOR WINDOWS SAMPLE](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)</br>
+   1 [CONTENT DELIVERY NETWORK (CDN) - TRANSCODE SAMPLE](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)</br>
+   2 [VIDEO CONFERENCING SAMPLE](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)</br>
+   3 [SMART CITY TRAFFIC MANAGEMENT SAMPLE](https://github.com/OpenVisualCloud/Smart-City-Sample)</br>
+   4 [INTELLIGENT AD-INSERTION SAMPLE](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)</br>
+   5 [CLOUD GAMING FOR WINDOWS SAMPLE](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)</br>
 
 12. **Open Source Reference Implementations:- https://software.intel.com/en-us/iot/reference-implementations**</br>
 
