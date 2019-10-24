@@ -3,11 +3,13 @@
 1. Link to download the course - https://software.seek.intel.com/DataCenter_to_Edge_REG - Subscribe through your mail id. You will receive a mail having link to the course content (~250 MB). Don't download it now, I have uploaded the same in dropbox. </br>
 
 2. Get Intel AI Devcloud access through https://software.intel.com/en-us/devcloud/datacenter/sign-up (Approved in 24 hours & retained for 4 weeks)</br>
+
 ```
-User Name: u*****</br>
-Node Name: c***</br>
-Instructions: https://devcloud.intel.com/datacenter/?uuid=************************</br>
+User Name: u*****
+Node Name: c***
+Instructions: https://devcloud.intel.com/datacenter/?uuid=************************
 ```
+
 2. Open the AI Devcloud in a browser: [https://devcloud.intel.com/datacenter/?uuid=************************]</br>
  
 3. Connect with a Jupyter* Notebook - One Click Log In, which opens up a Jupyter GUI</br>
@@ -15,24 +17,32 @@ Instructions: https://devcloud.intel.com/datacenter/?uuid=**********************
 4. Click the 'New > Terminal' in the Top right corner. It will open up a new tab connecting to the terminal of AI Devcloud login node.</br>
 
 5. Download, extract & rename the course folder. Navigate to the root directory of the class.</br>
+
 ```
-wget https://www.dropbox.com/s/617aq0ft4khxucb/dc_to_the_edge.zip</br>
-unzip dc_to_the_edge.zip</br>
-mv 'DC to Edge Course' dc_to_edge_course</br>
-cd dc_to_the_edge_course/Notebooks</br>
+wget https://www.dropbox.com/s/617aq0ft4khxucb/dc_to_the_edge.zip
+unzip dc_to_the_edge.zip
+mv 'DC to Edge Course' dc_to_edge_course
+cd dc_to_the_edge_course/Notebooks
 ```
+
 4. Create the conda environment (tf_training)</br>
+
 ```
-conda env create -f environment.yml</br>
+conda env create -f environment.yml
 ```
+
 5. Now, to add this environment to the list of available environments you’ll see in your Jupyter notebook by running:</br>
+
 ```
-python -m ipykernel install --user --name tf_training --display-name "Python (tf_training)"</br>
+python -m ipykernel install --user --name tf_training --display-name "Python (tf_training)"
 ```
+
 6. Run to activate the environment.</br>
+
 ```
-conda activate tf_training</br>
+conda activate tf_training
 ```
+
 7. Navigate to the tab in your browser which has Jupyter GUI and refresh the folder using the refresh button in the top right corner.</br>
 
 8. Click dc_to_edge_course and find download the "AI From the Data Center to the Edge An Optimized Path Using Intel Architecture.pdf" and refer this document through out the workshop.</br>
@@ -47,12 +57,17 @@ conda activate tf_training</br>
 10. **OpenVINO demos:-**</br>
 
 Select the base conda kernal in the Jupyter notebook</br>
+
 ```
 vi ~/.bash_profile</br>
-****</br>
-source /glob/deep-learning/openvino/bin/setupvars.sh</br>
-****</br>
 ```
+---
+```
+source /glob/deep-learning/openvino/bin/setupvars.sh
+```
+---
+
+
 **Build the samples:-**</br>
 ```
 cd /glob/deep-learning/openvino/deployment_tools/inference_engine/samples</br>
