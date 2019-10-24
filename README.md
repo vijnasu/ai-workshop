@@ -116,11 +116,12 @@ Available kernels:</br>
 ```
 $vi /home/u****/.local/share/jupyter/kernels/tf_training/kernel.json</br>
 ```
+Replace the executable path to pick the respective conda python </br>
 
 ```
 {
  "argv": [
-  "REPLACE-THIS-WITH-THE-CORRECT-EXECUTABLE-PATH - /home/u****/.conda/envs/tf_training/bin/python",
+  ![#f03c15](https://placehold.it/15/f03c15/000000?text="/home/u****/.conda/envs/tf_training/bin/python"),
   "-m",
   "ipykernel_launcher",
   "-f",
