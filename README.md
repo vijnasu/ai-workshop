@@ -1,14 +1,14 @@
-# ai-workshop
-**For AI training </br>
+## **Intel AI workshop** </br>
 
 1. Link to download the course - https://software.seek.intel.com/DataCenter_to_Edge_REG - Subscribe through your mail id. You will receive a mail having link to the course content (~250 MB). Don't download it now, I have uploaded the same in dropbox. </br>
 
 2. Get Intel AI Devcloud access through https://software.intel.com/en-us/devcloud/datacenter/sign-up (Approved in 24 hours & retained for 4 weeks)</br>
+```
 User Name: u*****</br>
 Node Name: c***</br>
 Instructions: https://devcloud.intel.com/datacenter/?uuid=************************</br>
-
-2. Open the AI Devcloud in a browser: https://devcloud.intel.com/datacenter/?uuid=************************</br>
+```
+2. Open the AI Devcloud in a browser: [https://devcloud.intel.com/datacenter/?uuid=************************]</br>
  
 3. Connect with a Jupyter* Notebook - One Click Log In, which opens up a Jupyter GUI</br>
 
@@ -44,7 +44,7 @@ conda activate tf_training</br>
 3) Part3-Model_Analysis.ipynb (Quiz - Fetches a certificate from Intel on success. Attempt once. If failed, attempt later.</br>
 4) Optional-OpenVINO_Video_Inference.ipynb</br>
 
-10. OpenVINO demos:-</br>
+10. **OpenVINO demos:-**</br>
 
 Select the base conda kernal in the Jupyter notebook</br>
 ```
@@ -62,7 +62,18 @@ Use the following library in the source code - </br>
 ```
 $HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br>
 ```
-**__Troubleshooting:-__**</br>
+
+11. **Open Visual Cloud demos:-**</br>
+![alt text](https://01.org/sites/default/files/users/u66592/ovc-_pipeline_v3.png)</br></br>
+..* [CONTENT DELIVERY NETWORK (CDN) - TRANSCODE SAMPLE](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)
+..* [VIDEO CONFERENCING SAMPLE](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)
+..* [SMART CITY TRAFFIC MANAGEMENT SAMPLE](https://github.com/OpenVisualCloud/Smart-City-Sample)
+..* [INTELLIGENT AD-INSERTION SAMPLE](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)
+..* [CLOUD GAMING FOR WINDOWS SAMPLE](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)
+
+12. **Open Source Reference Implementations:- https://software.intel.com/en-us/iot/reference-implementations**</br>
+
+## **__Troubleshooting:-__**</br>
 
 1. If there is a protobuf, opencv, vmmr_utils error, it may be due to jupyter kernel not pointing to proper environment. To correct this in the terminal do the following:-</br>
 ```python
