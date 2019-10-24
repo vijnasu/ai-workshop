@@ -10,7 +10,7 @@ Node Name: c***
 Instructions: https://devcloud.intel.com/datacenter/?uuid=************************
 ```
 
-2. Open the AI Devcloud in a browser: [https://devcloud.intel.com/datacenter/?uuid=************************]</br>
+2. Open the AI Devcloud in a browser: (https://devcloud.intel.com/datacenter/?uuid=************************)</br>
  
 3. Connect with a Jupyter* Notebook - One Click Log In, which opens up a Jupyter GUI</br>
 
@@ -79,19 +79,21 @@ $HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br
 ```
 
 11. **Open Visual Cloud demos:-**</br>
+
 ![alt text](https://01.org/sites/default/files/users/u66592/ovc-_pipeline_v3.png)
 </br></br>
-  1 [CONTENT DELIVERY NETWORK (CDN) - TRANSCODE SAMPLE](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)
-  2 [VIDEO CONFERENCING SAMPLE](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)
-  3 [SMART CITY TRAFFIC MANAGEMENT SAMPLE](https://github.com/OpenVisualCloud/Smart-City-Sample)
-  4 [INTELLIGENT AD-INSERTION SAMPLE](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)
-  5 [CLOUD GAMING FOR WINDOWS SAMPLE](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)
+
+ 1 [CONTENT DELIVERY NETWORK (CDN) - TRANSCODE SAMPLE](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)</br>
+ 2 [VIDEO CONFERENCING SAMPLE](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)</br>
+ 3 [SMART CITY TRAFFIC MANAGEMENT SAMPLE](https://github.com/OpenVisualCloud/Smart-City-Sample)</br>
+ 4 [INTELLIGENT AD-INSERTION SAMPLE](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)</br>
+ 5 [CLOUD GAMING FOR WINDOWS SAMPLE](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)</br>
 
 12. **Open Source Reference Implementations:- https://software.intel.com/en-us/iot/reference-implementations**</br>
 
 13. **OpenVINO Youtube Channel:-**
 </br>
-[![](http://img.youtube.com/vi/kY9nZbX1DWM/0.jpg)](http://www.youtube.com/watch?v=kY9nZbX1DWM "")
+[![](http://img.youtube.com/vi/kY9nZbX1DWM/0.jpg)](http://www.youtube.com/watch?v=kY9nZbX1DWM)
 </br>
 
 ## **__Troubleshooting:-__**</br>
