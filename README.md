@@ -1,6 +1,6 @@
 ## **Intel AI workshop** </br>
 
-1. Link to download the course - https://software.seek.intel.com/DataCenter_to_Edge_REG - Subscribe through your mail id. You will receive a mail having link to the course content (~250 MB). Don't download it now, I have uploaded the same in dropbox. </br>
+1. Link to download the course - https://software.seek.intel.com/DataCenter_to_Edge_REG - Subscribe through your mail id. You will receive a mail having link to the course content (~250 MB). Download and upload it to the server by wget or curl (You can follow the method provided below) </br>
 
 2. Get Intel AI Devcloud access through https://software.intel.com/en-us/devcloud/datacenter/sign-up (Approved in 24 hours & retained for 4 weeks)</br>
 
@@ -19,7 +19,7 @@ Instructions: https://devcloud.intel.com/datacenter/?uuid=**********************
 5. Download, extract & rename the course folder. Navigate to the root directory of the class.</br>
 
 ```
-wget https://www.dropbox.com/s/617aq0ft4khxucb/dc_to_the_edge.zip
+wget https://<your_course_weblink>/dc_to_the_edge.zip (E.g., wget https://www.dropbox.com/s/617aq0ft4khxucb/dc_to_the_edge.zip)
 unzip dc_to_the_edge.zip
 mv 'DC to Edge Course' dc_to_edge_course
 cd dc_to_the_edge_course/Notebooks
