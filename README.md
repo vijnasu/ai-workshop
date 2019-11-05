@@ -10,13 +10,13 @@ Node Name: c***
 Instructions: https://devcloud.intel.com/datacenter/?uuid=************************
 ```
 
-2. Open the AI Devcloud in a browser: (https://devcloud.intel.com/datacenter/?uuid=************************)</br>
+3. Open the AI Devcloud in a browser: (https://devcloud.intel.com/datacenter/?uuid=************************)</br>
  
-3. Connect with a Jupyter* Notebook - One Click Log In, which opens up a Jupyter GUI</br>
+4. Connect with a Jupyter* Notebook - One Click Log In, which opens up a Jupyter GUI</br>
 
-4. Click the 'New > Terminal' in the Top right corner. It will open up a new tab connecting to the terminal of AI Devcloud login node.</br>
+5. Click the 'New > Terminal' in the Top right corner. It will open up a new tab connecting to the terminal of AI Devcloud login node.</br>
 
-5. Download, extract & rename the course folder. Navigate to the root directory of the class.</br>
+6. Download, extract & rename the course folder. Navigate to the root directory of the class.</br>
 
 ```
 wget https://<your_course_weblink>/dc_to_the_edge.zip (E.g., wget https://www.dropbox.com/s/617aq0ft4khxucb/dc_to_the_edge.zip)
@@ -25,36 +25,36 @@ mv 'DC to Edge Course' dc_to_edge_course
 cd dc_to_the_edge_course/Notebooks
 ```
 
-4. Create the conda environment (tf_training)</br>
+7. Create the conda environment (tf_training)</br>
 
 ```
 conda env create -f environment.yml
 ```
 
-5. Now, to add this environment to the list of available environments you’ll see in your Jupyter notebook by running:</br>
+8. Now, to add this environment to the list of available environments you’ll see in your Jupyter notebook by running:</br>
 
 ```
 python -m ipykernel install --user --name tf_training --display-name "Python (tf_training)"
 ```
 
-6. Run to activate the environment.</br>
+9. Run to activate the environment.</br>
 
 ```
 conda activate tf_training
 ```
 
-7. Navigate to the tab in your browser which has Jupyter GUI and refresh the folder using the refresh button in the top right corner.</br>
+10. Navigate to the tab in your browser which has Jupyter GUI and refresh the folder using the refresh button in the top right corner.</br>
 
-8. Click dc_to_edge_course and find download the "AI From the Data Center to the Edge An Optimized Path Using Intel Architecture.pdf" and refer this document through out the workshop.</br>
+11. Click dc_to_edge_course and find download the "AI From the Data Center to the Edge An Optimized Path Using Intel Architecture.pdf" and refer this document through out the workshop.</br>
 
-9. Navigate to Notebooks folder in Jupyter UI and start the course in order:-</br>
+12. Navigate to Notebooks folder in Jupyter UI and start the course in order:-</br>
 
-1) Part1-Exploratory_Data_Analysis.ipynb</br>
-2) Part2-Training_InceptionV3-Student.ipynb</br>
-3) Part3-Model_Analysis.ipynb (Quiz - Fetches a certificate from Intel on success. Attempt once. If failed, attempt later.</br>
-4) Optional-OpenVINO_Video_Inference.ipynb</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) Part1-Exploratory_Data_Analysis.ipynb</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) Part2-Training_InceptionV3-Student.ipynb</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) Part3-Model_Analysis.ipynb (Quiz - Fetches a certificate from Intel on success. Attempt once. If failed, attempt later.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4) Optional-OpenVINO_Video_Inference.ipynb</br>
 
-10. **OpenVINO demos:-**</br>
+13. **OpenVINO demos:-**</br>
 
 Select the base conda kernal in the Jupyter notebook</br>
 
@@ -73,31 +73,49 @@ source /glob/deep-learning/openvino/bin/setupvars.sh
 cd /glob/deep-learning/openvino/deployment_tools/inference_engine/samples</br>
 ./build_samples.sh</br>
 ```
-Use the following library in the source code - </br>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the following library in the source code - </br>
 ```
 $HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br>
 ```
 
-11. **Open Visual Cloud demos:-**</br>
+14. **Open Visual Cloud demos:-**</br>
 
 ![alt text](https://01.org/sites/default/files/users/u66592/ovc-_pipeline_v3.png)
 </br></br>
 
-   ##### 1 [Content Delivery Network (CDN) - Transcode Sample](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)</br>
-   ##### 2 [Video Conferencing Sample](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)</br>
-   ##### 3 [Smart City Traffic Management Sample](https://github.com/OpenVisualCloud/Smart-City-Sample)</br>
-   ##### 4 [Intelligent Ad-Insertion Sample](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)</br>
-   ##### 5 [Cloud Gaming for Windows Sample](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 [Content Delivery Network (CDN) - Transcode Sample](https://github.com/OpenVisualCloud/CDN-Transcode-Sample)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 [Video Conferencing Sample](https://github.com/OpenVisualCloud/Video-Conferencing-Sample)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 [Smart City Traffic Management Sample](https://github.com/OpenVisualCloud/Smart-City-Sample)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 [Intelligent Ad-Insertion Sample](https://github.com/OpenVisualCloud/Ad-Insertion-Sample)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 [Cloud Gaming for Windows Sample](https://github.com/OpenVisualCloud/Cloud-Gaming-Windows-Sample)</br>
 
-12. **Open Source Reference Implementations:- https://software.intel.com/en-us/iot/reference-implementations**</br>
+15. **Open Source Reference Implementations:- https://software.intel.com/en-us/iot/reference-implementations**</br>
 
-13. **OpenVINO Youtube Channel:-**</br>
+16. **OpenVINO Youtube Channel:-**</br>
 
 [![Watch the video tutorials](https://github.com/vijnasu/ai-workshop/blob/master/images/final_5db1565885d3500014a8e867_181580.gif)](http://www.youtube.com/watch?v=kY9nZbX1DWM)
 
+17. **Data Analytics Acceleration Library (DAAL):-**</br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Installation:- https://github.com/IntelPython/daal4py </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Samples:- https://intelpython.github.io/daal4py/examples.html </br>
+
+#### DAAL Demo:-
+
+```
+export http_proxy=http://proxy01.iind.intel.com:911
+export https_proxy=https://proxy01.iind.intel.com:911
+source ~/.bashrc
+conda activate DAAL4PY
+cd aiworkshop/daal4py/examples
+jupyter notebook daal4py_data_science.ipynb
+```
+
+Open http://10.224.54.45:8888 in browser and run the notebook.</br>
+___
 ## **__Troubleshooting:-__**</br>
 
-  1. If there is a protobuf, opencv, vmmr_utils error, it may be due to jupyter kernel not pointing to proper environment. To correct this in the terminal do the following:-</br>
+1. If there is a protobuf, opencv, vmmr_utils error, it may be due to jupyter kernel not pointing to proper environment. To correct this in the terminal do the following:-</br>
 ```python
 python
 >>>import sys
