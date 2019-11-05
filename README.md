@@ -59,23 +59,21 @@ conda activate tf_training
 Select the base conda kernal in the Jupyter notebook</br>
 
 ```
-vi ~/.bash_profile</br>
+vi ~/.bash_profile
 ```
----
+Include the following line at the end of the file and save it.
 ```
 source /glob/deep-learning/openvino/bin/setupvars.sh
 ```
----
-
 
 **Build the samples:-**</br>
 ```
-cd /glob/deep-learning/openvino/deployment_tools/inference_engine/samples</br>
-./build_samples.sh</br>
+cd /glob/deep-learning/openvino/deployment_tools/inference_engine/samples
+./build_samples.sh
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;Use the following library in the source code - </br>
+Use the following library in the source code - </br>
 ```
-$HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so</br>
+$HOME/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so
 ```
 
 14. **Open Visual Cloud demos:-**</br>
@@ -125,15 +123,15 @@ python
 ```
 
 ```
-$jupyter kernelspec list</br>
-```
-Available kernels:</br>
-  base             /home/u****/.local/share/jupyter/kernels/base</br>
-  python3          /home/u****/.local/share/jupyter/kernels/python3</br>
-  tf_training      /home/u****/.local/share/jupyter/kernels/tf_training</br>
+$jupyter kernelspec list
 
+Available kernels:
+  base             /home/u****/.local/share/jupyter/kernels/base
+  python3          /home/u****/.local/share/jupyter/kernels/python3
+  tf_training      /home/u****/.local/share/jupyter/kernels/tf_training
 ```
-$vi /home/u****/.local/share/jupyter/kernels/tf_training/kernel.json</br>
+```
+$vi /home/u****/.local/share/jupyter/kernels/tf_training/kernel.json
 ```
 Replace the executable path to pick the respective conda python </br>
 
